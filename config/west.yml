@@ -1,11 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/SethMilliken
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: SethMilliken:sofle-led-strip-support
+      revision: sofle-led-strip-support
       import: app/west.yml
   self:
     path: config
