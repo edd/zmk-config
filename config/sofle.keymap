@@ -8,6 +8,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&led_strip {
+    chain-length = <21>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
